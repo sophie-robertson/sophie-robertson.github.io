@@ -13,7 +13,7 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -35,124 +35,95 @@
     <!-- Custom styles for this template -->
     <link href="heroes.css" rel="stylesheet">
   </head>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#EB6424" class="bi bi-signpost-split" viewBox="0 0 16 16">
+          <path d="M7 7V1.414a1 1 0 0 1 2 0V2h5a1 1 0 0 1 .8.4l.975 1.3a.5.5 0 0 1 0 .6L14.8 5.6a1 1 0 0 1-.8.4H9v10H7v-5H2a1 1 0 0 1-.8-.4L.225 9.3a.5.5 0 0 1 0-.6L1.2 7.4A1 1 0 0 1 2 7h5zm1 3V8H2l-.75 1L2 10h6zm0-5h6l.75-1L14 3H8v2z"/>
+        </svg>
+        <a class="navbar-brand" fs="18" href="index.html">Jumpstart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="searchpage.html">Job Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="info.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="resume.html">Advice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="color: #FA9500" aria-current="page" href="register.html">Stay Updated</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <body>
     
 <main>
   <h1 class="visually-hidden">Heroes examples</h1>
 
-  <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold">Centered hero</h1>
+  <div class="px-4 py-5 my-5 text-center" >
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#EB6424" class="bi bi-signpost-split" viewBox="0 0 16 16">
+      <path d="M7 7V1.414a1 1 0 0 1 2 0V2h5a1 1 0 0 1 .8.4l.975 1.3a.5.5 0 0 1 0 .6L14.8 5.6a1 1 0 0 1-.8.4H9v10H7v-5H2a1 1 0 0 1-.8-.4L.225 9.3a.5.5 0 0 1 0-.6L1.2 7.4A1 1 0 0 1 2 7h5zm1 3V8H2l-.75 1L2 10h6zm0-5h6l.75-1L14 3H8v2z"/>
+    </svg>
+    <h1 class="display-5 fw-bold">About Us</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <p class="lead mb-4">Due to the recent global pandemic, we have seen a massive labor shortage and a push to work-from-home. People everywhere are struggling to make the jump to new careers or the transition to remote work. They want to enter the workforce prepared but are lost as to how to begin. And that's where we come in. Jumpstart is a one stop shop for career advice and information in our new world. We have resources are available for those looking to switch careers or make the move to full-time remote employment.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
       </div>
     </div>
   </div>
 
   <div class="b-example-divider"></div>
 
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold">Centered screenshot</h1>
+  <div class="px-4 pt-5 my-5 text-center border-bottom" style="background-color: #BABD8D; border-radius: 20px; margin: 25px;">
+    <h1 class="display-4 fw-bold" style="color: darkslategray; ">Servicing Our Community</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <p class="lead mb-4">Our focus on making these consolidated resources accessible to everyone, so we operate as a non-profit. To offset the eventual costs, we would charge companies a fee to have more features on our site. Due to the staffing shortage, companies would find it advantageous to be on our website and gain exposure to potential employees. <br> 
+        We will also host workshops in community centers to make our services available to those without reliable internet access.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
       </div>
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">
-        <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        <img src="community.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Pic of COmmunity Service" width="700" height="500" loading="lazy" style="border-radius: 15px;">
       </div>
     </div>
   </div>
 
-  <div class="b-example-divider"></div>
+  <div class="b-example-divider"  ></div>
 
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+  <div class="px-4 pt-5 my-5 text-center border-bottom" style="background-color: #FFDAC6; border-radius: 20px; margin: 25px;">
+    <h1 class="display-4 fw-bold" style="color: #EB6424;">Our Pages</h1>
+    <div class="col-lg-10 mx-auto">
+      <p class="lead mb-4">We designed this page with the intention of helping people easily find the resources they need to discover and enter new career fields. We also wanted to help make the move to working from home, whether full or part time, as smooth as possible. We cover everything from home office setup to online programming courses to how to find the perfect entry-level job. <br><br>
+        Resume Reviewer: Our resume reviewer is designed to give our users the most customized and detailed feedback possible. With experts and advisors from every industry, users will come away with a potential career path and a clear idea of how to move forward with their career journey, whether that be a community college class or an internship. <br><br>
+        Job Search: Our job search feature gives users with more work experience the ability to search for specific jobs that match their specific needs. Filter by industry, location, and remote preference to receive available job listings. All job listings on our website are required to clearly specify if they have remote options or flexible work schedules. <br><br>
+        Email List: Make sure to sign up for our email list and customize your preferences to get notified when new opportunities become available. Whether you want to hear about jobs, free programs, or everything in between, we will be sure to notify you as soon as they get posted!
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
       </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
     </div>
   </div>
 
-  <div class="b-example-divider"></div>
-
-  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
-      <div class="col-lg-7 text-center text-lg-start">
-        <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-        <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-      </div>
-      <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-          </div>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-          <hr class="my-4">
-          <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
-      </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="bg-dark text-secondary px-4 py-5 text-center">
-    <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider mb-0"></div>
+  <footer class="container">
+    <p class="float-end"><a class="nav-link active" style="color: darkgray" href="#">Back to Top</a></p>
+    <p>&copy; 2022 Jumpstart, Inc. &middot; <a style="color: darkgray" href="#">Contact Us</a> &middot; <a style="color: darkgray" href="#">Terms</a></p>
+  </footer>
 </main>
 
 
