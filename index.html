@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+ 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+ 
+ 
+ 
+    <!-- Bootstrap core CSS -->
+<link href="carousel.css" rel="stylesheet">
+ 
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+ 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+ 
+ 
+    <!-- Custom styles for this template -->
+    <link href="carousel2.css" rel="stylesheet">
+  </head>
+  <body>
+ 
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#EB6424" class="bi bi-signpost-split" viewBox="0 0 16 16">
+        <path d="M7 7V1.414a1 1 0 0 1 2 0V2h5a1 1 0 0 1 .8.4l.975 1.3a.5.5 0 0 1 0 .6L14.8 5.6a1 1 0 0 1-.8.4H9v10H7v-5H2a1 1 0 0 1-.8-.4L.225 9.3a.5.5 0 0 1 0-.6L1.2 7.4A1 1 0 0 1 2 7h5zm1 3V8H2l-.75 1L2 10h6zm0-5h6l.75-1L14 3H8v2z"/>
+      </svg>
+      <a class="navbar-brand" fs="18" href="index.html">Jumpstart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="searchpage.html">Job Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="info.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="resume.html">Advice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #FA9500" aria-current="page" href="register.html">Stay Updated</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+ 
+<main>
+ 
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+ 
+      <div class="carousel-item active">
+        <img src="handshake.jpg" alt="Picture of handshake">
+        <div class="container">
+          <div class="carousel-caption" style="margin-bottom: 7%;">
+            <h1>Get career advice...</h1>
+            <p>Upload your resume and get matched with potential career paths and opportunities tailor-made to your experience and goals.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color: #EB6424;" href="resume.html">Take me there!</a></p>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="carousel-item">
+        <img src="office-building.jpg" alt="Picture of office buildings from street view.">
+        <div class="container">
+          <div class="carousel-caption" style="margin-bottom: 7%;">
+            <h1>Search our database...</h1>
+            <p>Use our search function to filter jobs and classes that will match your interests and get you one step closer to your perfect job.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color: #EB6424;" href="searchpage.html">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="carousel-item">
+        <img src="test.jpeg" alt="Picture of home office space">
+        <div class="container-caption">
+          <div class="carousel-caption" style="margin-bottom: 7%;">
+            <h1>Explore your next steps...</h1>
+            <p>Read more about work-from-home options, online classes, or entry career opportunities that fit your needs.</p>
+            <p><a class="btn btn-lg btn-primary" style="background-color: #EB6424;" href="info.html">Take me there!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ 
+ 
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+ 
+  <div class="container marketing">
+ 
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg!-->
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="Online-Learning-small.jpg" alt="Graphics picturing online learning" style="margin-bottom: 5%;">
+        <h2>Your Next Steps:</h2>
+        <p>Take advantage of our many resources while remaining in the comfort and safety of your own home. Find free online courses to learn new skills (or hone some rusty ones), information on how to work-from-home in a global pandemic, and get connected with real job opportunities in your area that are the best fit for you.</p>
+        <div>
+          <p><a class="btn btn-secondary" href="info.html" style="margin-top: 5%; background-color: #EB6424;">Read more!</a></p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="job-interview-small.jpg" alt="Graphics picturing a job interview" style="margin-bottom: 5%;">
+ 
+        <h2>Job Search:</h2>
+        <p>Sift through our substantial database of job opportunities and get connected with employees who will take your needs into consideration. Employees are required to include reliable information on the flexibility and online options of their positions. Filter by location, work-from-home status, interests, and more.</p>
+        <div>
+          <p><a class="btn btn-secondary" href="searchpage.html" style="margin-top: 5%; background-color: #EB6424;">Read more! &raquo;</a></p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="job-interview-small-2.jpg" alt="Graphics picturing people waiting in line for a job interview" style="margin-bottom: 5%;">
+ 
+        <h2>Career Advice:</h2>
+        <p>Upload your resume and receive career plans based on past experience and future goals. Either get immediate suggestions for career steps or request for a personalized review and meet with mentors that are dedicated to helping you succeed. Explore new opportunities that have come from the new age of working from home.</p>
+        <div>
+          <p><a class="btn btn-secondary" href="resume.html" style="margin-top: 5%; background-color: #EB6424;">Read more! &raquo;</a></p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+   
+ 
+    <!-- START THE FEATURETTES -->
+ 
+    <hr class="featurette-divider" style="background-color: #FFDAC6;">
+ 
+    <div class="row featurette" style="border-radius: 20px; padding: 10px; background-color: #FFDAC6;">
+      <p><br></p>
+      <div class="col-md-7">
+       
+        <h2 class="featurette-heading" style="text-align: center; margin-top: 10%; margin-bottom: 5%; color: #EB6424; font-size: 300%;" >University of Washington</h2>
+        <h2 style="text-align: center; margin-bottom: 5%;"><a  class="text-muted" href="https://careers.uw.edu" style="text-align: center;">UW Career & Internship Center</a></h2>
+        <p class="lead" style="margin-left: 5%;">Great databse of resources for University of Washington students. There is information on career and internship fairs, advice on how to set-up accounts at important career-advancing services such as LinkedIn or Handshake, as well as identity resources for marginilized communities. </p>
+      </div>
+      <div class="col-md-5">
+        <img src="uw-career.png" width="500" height="333" style="border-radius: 15px" alt="Image of the UW Career and Internship Center">
+ 
+      </div>
+      <p><br></p>
+    </div>
+ 
+    <hr class="featurette-divider">
+ 
+    <div class="row featurette" style="border-radius: 20px; padding: 10px; background-color: #BABD8D;">
+      <p><br></p>
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading" style="text-align: center; margin-top: 5%; margin-bottom: 5%; color: #7C6A0A; font-size: 300%;" >Daniel Herb</h2>
+        <h2 style="text-align: center; margin-bottom: 5%;"><a  class="text-muted" href="https://careers.uw.edu/staff/#daniel-herb-he-him" style="text-align: center;">Internship Success Manager</a></h2>
+        <p class="lead" style="margin-left: 5%;">"As the Internship Success Manager, I am excited to help students explore, find, and acquire high-quality internship experiences. I mainly work with UW staff, campus advisers, and employers to develop programs and processes that ensure students can access and thrive in these meaningful outside-the-classroom opportunities."</p>
+      </div>
+      <div class="col-md-5">
+        <img src="daniel-herb.jpg" width="333" height="333" style="border-radius: 15px; margin-left: 15%;" alt="Image of Daniel Herb, a counselor at the UW Career and Internship Center">
+ 
+      <p><br></p>
+      </div>
+     
+    </div>
+ 
+    <hr class="featurette-divider">
+ 
+    <div class="row featurette" style="border-radius: 20px; padding: 10px; background-color: #FFDAC6;">
+      <p><br></p>
+      <div class="col-md-7">
+       
+        <h2 class="featurette-heading" style="text-align: center; margin-top: 5%; margin-bottom: 5%; color: #EB6424; font-size: 300%;" >Magdalena Balazinska</h2>
+        <h2 style="text-align: center; margin-bottom: 5%;"><a  class="text-muted" href="https://www.cs.washington.edu/people/faculty/magda" style="text-align: center;">Director and Professor, Paul G. Allen School of Computer Science & Engineering</a></h2>
+        <p class="lead" style="margin-left: 5%;">Magdalena Balazinska is Professor and Director of the Paul G. Allen School of Computer Science & Engineering at the University of Washington. Magdalena's research interests are in the field of database management systems. As an advisor she will be able to connect you with potential internship and career opportunities as well as offer invaluable advice on what employers look for in a resume. </p>
+      </div>
+      <div class="col-md-5">
+        <img src="magda-sm.jpg" width="380" height="450" style="border-radius: 15px" alt="Image of Magdalena Balazinska, Professor and Director of the Paul G. Allen School of Computer Science & Engineering">
+ 
+      </div>
+      <p><br></p>
+    </div>
+ 
+    <hr class="featurette-divider">
+ 
+    <!-- /END THE FEATURETTES -->
+ 
+  </div><!-- /.container -->
+ 
+ 
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a class="nav-link active" style="color: darkgray" href="#">Back to Top</a></p>
+    <p>&copy; 2022 Jumpstart, Inc. &middot; <a style="color: darkgray" href="#">Contact Us</a> &middot; <a style="color: darkgray" href="#">Terms</a></p>
+  </footer>
+</main>
+ 
+ 
+    <script src="bootstrap.js"></script>
+ 
+ 
+  </body>
+</html>
